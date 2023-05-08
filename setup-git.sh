@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # Set git username and email
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
+git config --global user.name $GIT_USERNAME
+git config --global user.email $GIT_EMAIL
 
 # Fix permissions for SSH keys
 chmod 700 /home/node/.ssh
